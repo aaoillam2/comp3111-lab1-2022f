@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	// Use JUnit test framework
+    testImplementation 'junit:unit:4.12'
+}
+
+mainClassName = 'Lab1.Library'
